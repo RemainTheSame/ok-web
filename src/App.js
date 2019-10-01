@@ -4,14 +4,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header";
 import Main from "./components/Main";
-import BlogList from "./BlogList";
+import BlogList from "./components/BlogList";
 
 function App() {
   return (
     <div className="App">
-      <BlogList/>
       <Header/>
-        <Main/>
+      <Main/>
+      <BlogList/>
     </div>
   );
 }
