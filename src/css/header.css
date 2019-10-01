@@ -16,7 +16,7 @@
     margin-right: 15px;
 }
 
-.header-buttons > div{
+.header-buttons > a{
     color: #d0aa14;
     transition-duration: 0.5s;
     cursor: pointer;
@@ -25,10 +25,11 @@
     font-family: sans-serif;
     border-bottom: #d0aa14 solid 2px;
     border-radius: 10%;
+    text-decoration: none;
 
 }
 
-.header-buttons > div:hover{
+.header-buttons > a:hover{
     opacity: 0.5;
 }
 

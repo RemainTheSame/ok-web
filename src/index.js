@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import Games from "./components/Games";
-
+/*
 const routing = (
     <Router>
         <div>
@@ -15,10 +15,10 @@ const routing = (
             <Route path="/games" component={Games}/>
         </div>
     </Router>
-)
+)*/
 
 
-ReactDOM.render(routing, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

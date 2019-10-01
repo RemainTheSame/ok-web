@@ -7,12 +7,17 @@ class Header extends React.Component{
     render(){
         return(
             <div className={"header"}>
-
-
                 <nav className={"header-buttons"}>
-                    <div>About Me</div>
-                    <div>Game Projects</div>
-                    <div>Web Dev</div>
+                    <Link to={"/about"}>
+                        About Me
+                    </Link>
+                    <Link to={"/games"}>
+                        Game Projects
+                    </Link>
+                    <Link to={"/web"}>
+                        Web Development
+                    </Link>
+
                 </nav>
 
 
