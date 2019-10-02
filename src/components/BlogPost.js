@@ -7,9 +7,8 @@ class BlogPost extends React.Component{
     render(){
         return(
             <div>
-
                 <div className={"left-container"}>
-                    <h3 className={"post-header"}>{this.props.header}</h3>
+                    <h3 className={"post-header"}>{this.props.title}</h3>
                     <p className={"post-paragraph"}>{this.props.text}</p>
                 </div>
                 <div className={"right-container"}>
@@ -17,9 +16,6 @@ class BlogPost extends React.Component{
 
                     </img>
                 </div>
-
-
-
             </div>
         )
     }

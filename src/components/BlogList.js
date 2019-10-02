@@ -1,6 +1,8 @@
 import React from "react"
 import axios from "axios"
 import "../App.css"
+import getPosts from "../tempData"
+import BlogPost from "./BlogPost";
 
 /*
 *  BlogList
@@ -31,9 +33,13 @@ class BlogList extends React.Component{
 
 
     render(){
+        let posts = getPosts(this.props.page);
+        let a = posts.map((post) =>
+            <BlogPost title={post.title} text={post.text} image={post.image}/>
+        );
         return(
             <div className={"column-div"}>
-
+                {a}
             </div>
         )
     }

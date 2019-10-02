@@ -19,7 +19,6 @@ function App() {
               <Route path={"/about"} component={About}/>
               <Route path={"/games"} component={Games}/>
               <Route path={"/web"} component={Web}/>
-              <BlogList/>
           </div>
       </Router>
 

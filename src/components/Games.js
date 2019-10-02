@@ -1,4 +1,5 @@
 import React from "react"
+import BlogList from "./BlogList";
 
 class Games extends React.Component{
 
@@ -9,7 +10,7 @@ class Games extends React.Component{
             <div>
 
                 <h1>GAMES</h1>
-
+                <BlogList page={"games"}/>
 
             </div>
         )
