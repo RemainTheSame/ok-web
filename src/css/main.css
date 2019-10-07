@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.slider-wrapper{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background: #343131;
+
+}
+
+.image-list{
+    width: 40%;
+    height: 70%;
+}
+
+.image-list > img{
+    width: 100%;
+    height: 100%;
+}
+
+#left-arrow, #right-arrow{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    float: left;
+    box-shadow: 5px 5px  #d0aa14;
+
+}
+
+#left-arrow{
+    transform: rotate(135deg);
+}
+
+#right-arrow{
+    transform: rotate(-45deg);
+}

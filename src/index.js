@@ -3,20 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
-import Games from "./components/Games";
-/*
-const routing = (
-    <Router>
-        <div>
-            <Link to={"/"}>Home</Link>
-            <Link to={"/games"}>Games</Link>
-            <Route exact path="/" component={App} />
-            <Route path="/games" component={Games}/>
-        </div>
-    </Router>
-)*/
-
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 

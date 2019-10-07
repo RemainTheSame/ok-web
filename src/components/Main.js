@@ -1,5 +1,7 @@
 import React from "react"
 import "../css/header.css"
+import "../css/main.css"
+import ImageSlider from "./ImageSlider";
 
 
 class Main extends React.Component{
@@ -9,6 +11,7 @@ class Main extends React.Component{
         return(
             <main className={"main"}>
                 This is the main space!
+                <ImageSlider/>
             </main>
         )
     }
