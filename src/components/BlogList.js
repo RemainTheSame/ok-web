@@ -1,7 +1,7 @@
 import React from "react"
 import axios from "axios"
 import "../App.css"
-import getPosts from "../tempData"
+import {getPosts} from "../tempData"
 import BlogPost from "./BlogPost";
 import "../css/bloglist.css"
 

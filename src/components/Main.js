@@ -10,7 +10,6 @@ class Main extends React.Component{
     render(){
         return(
             <main className={"main"}>
-                This is the main space!
                 <ImageSlider/>
             </main>
         )

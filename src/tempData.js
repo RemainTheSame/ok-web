@@ -39,10 +39,23 @@ const failposts = [
     }
 ]
 
+const sliderimages = [
+    {
+        "caption":"First Picture",
+        "image":"https://live.staticflickr.com/1799/43177168225_1f78e5f054_b.jpg"
+    },
+    {
+        "caption":"Second Picture",
+        "image":"https://www.publicdomainpictures.net/pictures/170000/velka/landscape-1461832466Sxi.jpg"
+    },
+    {
+        "caption":"...and the third (3)!",
+        "image":"https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?cs=srgb&dl=clouds-country-daylight-371633.jpg&fm=jpg"
+    },
+]
 
 
-
-export default function getPosts(page){
+export function getPosts(page){
     switch (page) {
         default: return failposts;
         case "games":
@@ -54,3 +67,9 @@ export default function getPosts(page){
 
     }
 }
+export function getSlides() {
+    return sliderimages;
+}
+
+
+
