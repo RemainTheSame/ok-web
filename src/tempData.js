@@ -64,7 +64,6 @@ export function getPosts(page){
         case "web":
             return webposts;
 
-
     }
 }
 export function getSlides() {

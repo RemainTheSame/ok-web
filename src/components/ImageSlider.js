@@ -1,6 +1,7 @@
 import React from "react"
 import "../css/main.css"
 import {getSlides} from "../tempData"
+import SliderList from "./SliderList";
 
 class ImageSlider extends React.Component{
     constructor(){
@@ -42,6 +43,10 @@ class ImageSlider extends React.Component{
         }
     }
 
+    getCurrentImage=()=>{
+        return this.state.slides[this.state.current].image
+    }
+
     render(){
         return(
             <div className={"image-slider"}>
@@ -49,9 +54,7 @@ class ImageSlider extends React.Component{
                     <div onClick={this.previous} id={"left-arrow"}>
                     </div>
 
-                    <div className={"image-list"}>
-                       <img src={this.state.slides[this.state.current].image} />
-                    </div>
+                    <SliderList image={this.getCurrentImage()}/>
 
                     <div onClick={this.next} id={"right-arrow"}>
                     </div>

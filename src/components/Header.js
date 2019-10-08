@@ -7,6 +7,11 @@ class Header extends React.Component{
     render(){
         return(
             <div className={"header"}>
+                <div className={"logo-wrapper"}>
+                    <Link to={"/"}>
+                        LOGO
+                    </Link>
+                </div>
                 <nav className={"header-buttons"}>
                     <Link to={"/about"}>
                         About Me
@@ -17,10 +22,7 @@ class Header extends React.Component{
                     <Link to={"/web"}>
                         Web Development
                     </Link>
-
                 </nav>
-
-
             </div>
         )
     }

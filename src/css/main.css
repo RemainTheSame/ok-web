@@ -46,8 +46,12 @@
     margin-top: 15%;
     margin-left: 5%;
     margin-right: 5%;
+    /*
     width: 70px;
     height: 70px;
+    */
+    width: calc(3.65vw);
+    height: calc(3.65vw);
     transition: 0.2s;
     float: left;
     box-shadow: 3px 3px  #d0aa14;
