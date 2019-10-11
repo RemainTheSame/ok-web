@@ -3,6 +3,10 @@ import React from "react"
 
 class SliderList extends React.Component{
 
+    test=()=>{
+        
+    }
+
 
     render(){
         return(
